@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" ccontent="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <Style>
+        html { 
+            font-size: 18px;
+        }
+        body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+            max-width: 1920px;
+            margin: auto;
+        }
+        
+        .flex-conteiner {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: seagreen;
+        } 
+        
+        [class*="flex-item-"] {
+               display:flex;
+               justify-content: space-evenly;
+               align-items: center;
+            } 
+        .flex-item-header {
+            width: 100%;
+            flex-wrap: wrap;
+            background-color: navajowhite;
+        }
+        .flex-item-1 {
+            width: 100%;
+        }
+        .flex-item-2 {
+            width: 100%;
+        }
+
+        .flex-topnav {
+            width: 100%;
+            background-color: black;
+            overflow: hidden;
+            float: left;
+        }
+        .flex-topnav a{
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: #f2f2f2;
+            text-align: center;
+            float: left;
+            
+        }
+        .col-1 {
+            width: 8.33%;
+            float: left;
+            
+        }
+        .col-8 {
+            width: 66.66%;
+            float: left;
+          
+      }
+
+     
+       .flex-topnav a:hover {
+            background-color: rgb(88, 26, 26);
+            color: rgb(20, 19, 19);
+                       
+        }
+        .frex-row{
+            display: flex;
+            width: 100%;
+        }
+
+        .flex-footer{
+            width: 100%;
+        }
+        .leftcolumn {
+            width: 75%;
+            float: left;
+            background-color: lightslategray;
+            padding-left: 20px;
+        }
+        .rightcolumn {
+            width: 25%;
+            float: left;
+            background-color: rgb(169, 194, 111);
+            padding-left: 20px;
+        }
+        .flex-footer {
+            width: 100%;
+            background-color: cadetblue;
+        }
+        .flex-footer h2 {
+            text-align: center;
+        }
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+
+            }
+            
+        .fakeimg {
+            text-align: center;
+        }
+        
+
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+    </Style>    
+</head>
+        <body>
+    <div class=flex-conteiner>
+        <div class="flex-item-header">
+            <div class="flex-item-1"><h1>My Website</h1></div>
+            <div class="flex-item-2"><p>Resize the browser window to see the effect.</p></div>
+        </div>
+        
+        <div class="flex-topnav">
+          <div class="col-1"><a href="#">Link</a></div>
+          <div class="col-1"><a href="#">Link</a></div>
+          <div class="col-1"><a href="#">Link</a></div>
+          <div class="col-8"> tarpas </div>
+          <div class="col-1"><a href="#">Link</a></div>
+        </div>
+        
+        <div class="frex-row">
+          <div class="leftcolumn">
+            <div class="card">
+              <h2>TITLE HEADING</h2>
+              <h5>Title description, Dec 7, 2017</h5>
+              <div class="fakeimg" style="height:12.5rem;"> <img src="img/nuotrauka.jpg"></div>
+              <p>Some text..</p>
+              <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+            <div class="card">
+              <h2>TITLE HEADING</h2>
+              <h5>Title description, Sep 2, 2017</h5>
+              <div class="fakeimg" style="height:12.5rem;"> <img src="img/nuotrauka.jpg"></div>
+              <p>Some text..</p>
+              <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            </div>
+          </div>
+          <div class="rightcolumn">
+            <div class="card">
+              <h2>About Me</h2>
+              <div class="fakeimg" style="height:6.25rem;"><img src="img/nuotrauka.jpg"></div>
+              <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            </div>
+            <div class="card">
+              <h3>Popular Post</h3>
+              <div class="fakeimg" style="height:6.25rem;"><img src="img/nuotrauka.jpg"></div>
+              <div class="fakeimg" style="height:6.25rem;"><img src="img/nuotrauka.jpg"></div>
+              <div class="fakeimg" style="height:6.25rem;"><img src="img/nuotrauka.jpg"></div>
+            </div>
+            <div class="card">
+              <h3>Follow Me</h3>
+              <p>Some text..</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex-footer">
+           <div class="Flex-item-3"><h2>&#169 Vainius Balza</h2>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- nebaigtas -->
